@@ -122,6 +122,9 @@
   object-position: left center;
   width: 100%;
   height: 27px;
+    /* by me */
+    position: relative;
+    top: -40px;  
 }
 
 .organizationInfo {
