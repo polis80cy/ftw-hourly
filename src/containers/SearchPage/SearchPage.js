@@ -53,8 +53,8 @@ export class SearchPageComponent extends Component {
 
   filters() {
     const {
-      certificateConfig,
-      yogaStylesConfig,
+      //certificateConfig,
+      //yogaStylesConfig,
       priceFilterConfig,
       keywordFilterConfig,
     } = this.props;
@@ -65,14 +65,14 @@ export class SearchPageComponent extends Component {
     // https://www.sharetribe.com/docs/references/extended-data/#data-schema
 
     return {
-      certificateFilter: {
+      /*certificateFilter: {
         paramName: 'pub_certificate',
-        options: certificateConfig.filter(c => !c.hideFromFilters),
+        options: [],//certificateConfig.filter(c => !c.hideFromFilters),
       },
       yogaStylesFilter: {
         paramName: 'pub_yogaStyles',
-        options: yogaStylesConfig,
-      },
+        options: [],//yogaStylesConfig,
+      },*/
       priceFilter: {
         paramName: 'price',
         config: priceFilterConfig,
@@ -221,8 +221,8 @@ export class SearchPageComponent extends Component {
             searchParamsForPagination={parse(location.search)}
             showAsModalMaxWidth={MODAL_BREAKPOINT}
             primaryFilters={{
-              yogaStylesFilter: filters.yogaStylesFilter,
-              certificateFilter: filters.certificateFilter,
+              //yogaStylesFilter: filters.yogaStylesFilter,
+              //certificateFilter: filters.certificateFilter,
               priceFilter: filters.priceFilter,
               keywordFilter: filters.keywordFilter,
             }}

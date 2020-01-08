@@ -64,7 +64,7 @@
 .logoLink {
   @apply --TopbarDesktop_linkHover;
   flex-shrink: 0;
-  padding: 21px 24px 21px 24px;
+  padding: 0px 36px 21px 36px;
   height: 100%;
 
   @media (--viewportLarge) {
@@ -74,14 +74,14 @@
 
 .logo {
   /* If height is increased, change link paddings accordingly */
-  height: 220px;
+  height: 72px;
 
   /* Good aspect ratio should be less than 160/27 (width/height) */
   /* NOTE: extremely wide logos, need special handling. */
-  width: auto;
+  width: 200px;
   max-width: 220px;
   object-fit: contain;
-  object-position: left center;
+  object-position: left top;
 }
 
 /* Search */

@@ -158,8 +158,8 @@ class SearchFiltersMobileComponent extends Component {
       onMapIconClick,
       onManageDisableScrolling,
       selectedFiltersCount,
-      certificateFilter,
-      yogaStylesFilter,
+      //certificateFilter,
+      //yogaStylesFilter,
       priceFilter,
       keywordFilter,
       intl,
@@ -186,11 +186,11 @@ class SearchFiltersMobileComponent extends Component {
     const certificateLabel = intl.formatMessage({
       id: 'SearchFiltersMobile.certificateLabel',
     });
-    const initialcertificate = certificateFilter
+    const initialcertificate = /*certificateFilter
       ? this.initialValue(certificateFilter.paramName)
-      : null;
+      :*/ null;
 
-    const certificateFilterElement = certificateFilter ? (
+    const certificateFilterElement = /*certificateFilter ? (
       <SelectSingleFilter
         urlParam={certificateFilter.paramName}
         label={certificateLabel}
@@ -200,13 +200,13 @@ class SearchFiltersMobileComponent extends Component {
         initialValue={initialcertificate}
         intl={intl}
       />
-    ) : null;
+    ) :*/ null;
 
     const yogaStylesLabel = intl.formatMessage({ id: 'SearchFiltersMobile.yogaStylesLabel' });
 
-    const initialyogaStyles = this.initialValues(yogaStylesFilter.paramName);
+    //const initialyogaStyles = this.initialValues(yogaStylesFilter.paramName);
 
-    const yogaStylesFilterElement = yogaStylesFilter ? (
+    const yogaStylesFilterElement = /*yogaStylesFilter ? (
       <SelectMultipleFilter
         id="SearchFiltersMobile.yogaStylesFilter"
         name="yogaStyles"
@@ -217,7 +217,7 @@ class SearchFiltersMobileComponent extends Component {
         options={yogaStylesFilter.options}
         initialValues={initialyogaStyles}
       />
-    ) : null;
+    ) :*/ null;
 
     const initialPriceRange = this.initialPriceRangeValue(priceFilter.paramName);
 

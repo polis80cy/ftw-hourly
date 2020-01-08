@@ -34,9 +34,9 @@ const priceData = (price, intl) => {
   return {};
 };
 
-const getCertificateInfo = (certificateConfig, key) => {
+/*const getCertificateInfo = (certificateConfig, key) => {
   return certificateConfig.find(c => c.key === key);
-};
+};*/
 
 class ListingImage extends Component {
   render() {
@@ -63,9 +63,9 @@ export const ListingCardComponent = props => {
   const firstImage =
     currentListing.images && currentListing.images.length > 0 ? currentListing.images[0] : null;
 
-  const certificate = publicData
+  /*const certificate = publicData
     ? getCertificateInfo(certificateConfig, publicData.certificate)
-    : null;
+    : null;*/
   const { formattedPrice, priceTitle } = priceData(price, intl);
 
   const unitType = config.bookingUnitType;
@@ -111,10 +111,10 @@ export const ListingCardComponent = props => {
               longWordClass: css.longWord,
             })}
           </div>
-          <div className={css.certificateInfo}>
-            {certificate && !certificate.hideFromListingInfo ? (
+          <div /*className={css.certificateInfo}*/>
+            {/*certificate && !certificate.hideFromListingInfo ? (
               <span>{certificate.label}</span>
-            ) : null}
+            ) : null*/}
           </div>
         </div>
       </div>

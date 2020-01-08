@@ -191,8 +191,8 @@ export class ListingPageComponent extends Component {
       sendEnquiryInProgress,
       sendEnquiryError,
       monthlyTimeSlots,
-      certificateConfig,
-      yogaStylesConfig,
+      //certificateConfig,
+      //yogaStylesConfig,
     } = this.props;
 
     const listingId = new UUID(rawParams.id);
@@ -414,14 +414,14 @@ export class ListingPageComponent extends Component {
                     priceTitle={priceTitle}
                     formattedPrice={formattedPrice}
                     richTitle={richTitle}
-                    listingCertificate={publicData ? publicData.certificate : null}
-                    certificateConfig={certificateConfig}
+                    //listingCertificate={publicData ? publicData.certificate : null}
+                    //certificateConfig={certificateConfig}
                     hostLink={hostLink}
                     showContactUser={showContactUser}
                     onContactUser={this.onContactUser}
                   />
                   <SectionDescriptionMaybe description={description} />
-                  <SectionFeaturesMaybe options={yogaStylesConfig} publicData={publicData} />
+                  <SectionFeaturesMaybe /*options={yogaStylesConfig}*/ publicData={publicData} />
                   <SectionMapMaybe
                     geolocation={geolocation}
                     publicData={publicData}
@@ -479,8 +479,8 @@ ListingPageComponent.defaultProps = {
   fetchReviewsError: null,
   monthlyTimeSlots: null,
   sendEnquiryError: null,
-  certificateConfig: config.custom.certificate,
-  yogaStylesConfig: config.custom.yogaStyles,
+  //certificateConfig: config.custom.certificate,
+  //yogaStylesConfig: config.custom.yogaStyles,
 };
 
 ListingPageComponent.propTypes = {
@@ -527,8 +527,8 @@ ListingPageComponent.propTypes = {
   onSendEnquiry: func.isRequired,
   onInitializeCardPaymentData: func.isRequired,
 
-  certificateConfig: array,
-  yogaStylesConfig: array,
+  //certificateConfig: array,
+  //yogaStylesConfig: array,
 };
 
 const mapStateToProps = state => {

@@ -12,19 +12,19 @@ const SectionHeading = props => {
   const {
     richTitle,
     listingCertificate,
-    certificateConfig,
+    //certificateConfig,
     showContactUser,
     onContactUser,
   } = props;
 
-  const certificate = getCertificateInfo(certificateConfig, listingCertificate);
-  const showCertificate = certificate && !certificate.hideFromListingInfo;
+  //const certificate = getCertificateInfo(certificateConfig, listingCertificate);
+  const showCertificate = false;//certificate && !certificate.hideFromListingInfo;
   return (
     <div className={css.sectionHeading}>
       <div className={css.heading}>
         <h1 className={css.title}>{richTitle}</h1>
         <div className={css.author}>
-          {showCertificate ? <span>{certificate.label}</span> : null}
+          {showCertificate ? <span>{""/*certificate.label*/}</span> : null}
           {showContactUser ? (
             <span className={css.contactWrapper}>
               {showCertificate ? <span className={css.separator}>•</span> : null}
