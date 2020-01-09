@@ -12,7 +12,7 @@ import {
 } from '../../components';
 
 import css from './AboutPage.css';
-import image from './about-us-1056.jpg';
+import image from './about-us.jpg';
 
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
@@ -35,47 +35,39 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Get creative with new spaces</h1>
-          <img className={css.coverImage} src={image} alt="My first ice cream." />
+          <h1 className={css.pageTitle}>Make your studio accessible to every photographer out there.</h1>
+          <img className={css.coverImage} src={image} alt="About us." />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Bookme lets you get creative.</p>
+              <p>Build connections and earn extra income.</p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Each yoga practitioner is an individual, and each one of us needs different care.
-                Working together with an experienced yoga teacher offers the possibility to rise
-                our practise to a whole new level.
+                Do you have a creative space you can call studio?
               </h2>
 
               <p>
-                Whether it is the alignment of asanas or being able to set the focus of the class,
-                we all have our own struggles and goals. Some of these cannot be addressed in a
-                regular class of twenty yogis. Working together with the experienced yoga teachers
-                from Yogatime, you can together create just the right class for you.
+                Whether it is a professional space or just your living room, if you have the
+                equipment necessary to call it a photography studio, you can monetize your place by hosting
+                it on Jiffystudio and making it available to a global community of photographers
+                looking for creative spaces for their next photoshoot. Make it work for you by
+                choosing when to make your studio available for bookings, all through Jiffystudio.
               </p>
 
-              <h3 className={css.subtitle}>Are you a yoga teacher?</h3>
+              <h3 className={css.subtitle}>Still not convinced?</h3>
 
               <p>
-                Yogatime offers you a platform through which you can reach thousands of yoga
-                practitioners. Offering private yoga classes through Yogatime offers you a
-                possibility to grow your customer base and earn some extra income on top of your
-                regular classes.
+                Jiffystudio offers you a platform through which you can reach photographaphy
+                practitioners and creatives globally. Offering your studio through Jiffystudio
+                presents you with the real possibility to earn some extra income on top of your regular
+                photography offerings.
               </p>
 
               <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Yogatime
+                Get social
               </h3>
-              <p>
-                Yogatime is brought to you by{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Sharetribe
-                offers anyone a possibility to create a marketplace without restricting your own
-                creativity. Do not hesitate to reach out and learn how to best turn your
-                marketplace idea to reality.
-              </p>
               <p>
                 You can also checkout our{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}

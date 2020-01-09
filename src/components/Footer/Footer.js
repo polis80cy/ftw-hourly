@@ -104,7 +104,7 @@ const Footer = props => {
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
-                  <NamedLink name="AboutPage" to={{ hash: '#contact' }} className={css.link}>
+                  <NamedLink name="AboutPage" to={{ search: 'mailto:hello@jiffy.studio' }} className={css.link}>
                     <FormattedMessage id="Footer.toContactPage" />
                   </NamedLink>
                 </li>
@@ -117,11 +117,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556',
+                        '?address=Singapore&bounds=1.4779199%2C104.406654%2C1.1308576%2C103.5742042',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchNewYork" />
+                    <FormattedMessage id="Footer.searchSingapore" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
