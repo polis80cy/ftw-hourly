@@ -11,7 +11,7 @@
      :config {:observe-availability? true, :type :time}}
     {:name :action/calculate-tx-unit-total-price}
     {:name :action/calculate-tx-provider-commission,
-     :config {:commission 0.1M}}
+     :config {:commission 0.15M}}
     {:name :action/stripe-create-payment-intent}],
    :to :state/pending-payment}
   {:name :transition/request-payment-after-enquiry,

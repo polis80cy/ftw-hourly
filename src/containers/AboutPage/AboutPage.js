@@ -40,7 +40,7 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Build connections and earn extra income.</p>
+              <p>With Jiffystudio you can host your studio and earn extra income.</p>
             </div>
 
             <div className={css.contentMain}>
@@ -53,7 +53,8 @@ const AboutPage = () => {
                 equipment necessary to call it a photography studio, you can monetize your place by hosting
                 it on Jiffystudio and making it available to a global community of photographers
                 looking for creative spaces for their next photoshoot. Make it work for you by
-                choosing when to make your studio available for bookings, all through Jiffystudio.
+                choosing when to make your studio available for bookings, and how much to charge for it,
+                all through Jiffystudio.
               </p>
 
               <h3 className={css.subtitle}>Still not convinced?</h3>
@@ -61,8 +62,7 @@ const AboutPage = () => {
               <p>
                 Jiffystudio offers you a platform through which you can reach photographaphy
                 practitioners and creatives globally. Offering your studio through Jiffystudio
-                presents you with the real possibility to earn some extra income on top of your regular
-                photography offerings.
+                presents you with the real possibility to earn extra income.
               </p>
 
               <h3 id="contact" className={css.subtitle}>

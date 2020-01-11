@@ -11,50 +11,76 @@ const TermsOfService = props => {
   // prettier-ignore
   return (
     <div className={classes}>
-      <p className={css.lastUpdated}>Last updated: November 22, 2019</p>
-
+      <p className={css.lastUpdated}>Last updated: January 11, 2020</p>
       <p>
-        Thank you for using Yogatime! Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-
-      <h2>1 Lorem ipsum dolor sit amet</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-
-      <h2>2 Sed ut perspiciatis unde</h2>
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-        dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-      </p>
-
-      <h2>3 At vero eos et accusamus</h2>
-      <p>
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-        cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
-        est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam
-        libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut
-        et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-        sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
-        doloribus asperiores repellat
+        <h3>1. Terms</h3>
+        <p>
+          By accessing Jiffystudio, you are agreeing to be bound by these terms of service,
+          all applicable laws and regulations, and agree that you are responsible for compliance
+          with any applicable local laws. If you do not agree with any of these terms, you are
+          prohibited from using or accessing this site. The materials contained in this website
+          are protected by applicable copyright and trademark law.
+        </p>
+        <h3>2. Use License</h3>
+        <p>
+          Permission is granted to temporarily download one copy of the materials (information or software)
+          our Jiffystudio for personal, non-commercial transitory viewing only. This is the grant of a license,
+          not a transfer of title, and under this license you may not; modify or copy the materials; use the
+          materials for any commercial purpose, or for any public display (commercial or non-commercial);
+          attempt to decompile or reverse engineer any software contained on Jiffystudio; remove any copyright
+          or other proprietary notations from the materials; or transfer the materials to another person or
+          "mirror" the materials on any other server.
+        </p>
+        <p>
+          This license shall automatically terminate if you violate any of these restrictions and may be
+          terminated from Jiffystudio at any time. Upon terminating your viewing of these materials or upon the
+          termination of this license, you must destroy any downloaded materials in your possession whether in
+          electronic or printed format.
+        </p>
+        <h3>3. Disclaimer</h3>
+        <p>
+          The materials on Jiffystudio are provided on an 'as is' basis. We make no warranties, expressed or implied,
+          and hereby disclaims and negate all other warranties including, without limitation, implied warranties or
+          conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual
+          property or other violation of rights.
+          <p>
+            Further, Jiffystudio does not warrant or make any representations concerning the accuracy, likely
+            results, or reliability of the use of the materials on its website or otherwise relating to such
+            materials or on any sites linked to this site.
+          </p>
+        </p>
+        <h3>4. Limitations</h3>
+        <p>
+          In no event shall Jiffystudio or its suppliers be liable for any damages (including, without limitation,
+          damages for loss of data or profit, or due to business interruption) arising out of the use or inability
+          to use the materials on Jiffystudio, even if Jiffystudio or an authorized representative has been notified
+          orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations
+          on implied warranties, or limitations of liability for consequential or incidental damages, these
+          imitations may not apply to you.
+        </p>
+        <h3>5. Accuracy of materials</h3>
+        <p>
+          The materials appearing on Jiffystudio could include technical, typographical, or photographic errors.
+          Jiffystudio does not warrant that any of the materials on its website are accurate, complete or current.
+          Jiffystudio may make changes to the materials contained on its website at any time without notice.
+          However, Jiffystudio does not make any commitment to update the materials.
+        </p>
+        <h3>6. Links</h3>
+        <p>
+          Jiffystudio has not reviewed all of the sites linked to its website and is not responsible for the
+          contents of any such linked site. The inclusion of any link does not imply endorsement by Jiffystudio
+          of the site. Use of any such linked website is at the user's own risk.
+        </p>
+        <h3>7. Modifications</h3>
+          <p>
+            Jiffystudio may revise these terms of service for its website at any time without notice. By using
+            this website you are agreeing to be bound by the then current version of these terms of service.
+          </p>
+        <h3>8. Governing Law</h3>
+          <p>
+            These terms and conditions are governed by and construed in accordance with the laws of Singapore
+            and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
+          </p>
       </p>
     </div>
   );

@@ -24,7 +24,7 @@ const renderSocialMediaLinks = intl => {
   const goToTwitter = intl.formatMessage({ id: 'Footer.goToTwitter' });
 
   const fbLink = siteFacebookPage ? (
-    <ExternalLink key="linkToFacebook" href={siteFacebookPage} className={css.icon} title={goToFb}>
+    <ExternalLink key="linkToFacebook" href={""/*siteFacebookPage*/} className={css.icon} title={goToFb}>
       <IconSocialMediaFacebook />
     </ExternalLink>
   ) : null;
@@ -32,7 +32,7 @@ const renderSocialMediaLinks = intl => {
   const twitterLink = siteTwitterPage ? (
     <ExternalLink
       key="linkToTwitter"
-      href={siteTwitterPage}
+      href={""/*siteTwitterPage*/}
       className={css.icon}
       title={goToTwitter}
     >
@@ -93,6 +93,7 @@ const Footer = props => {
                     <FormattedMessage id="Footer.toAboutPage" />
                   </NamedLink>
                 </li>
+                {/* No need for now
                 <li className={css.listItem}>
                   <NamedLink name="LandingPage" className={css.link}>
                     <FormattedMessage id="Footer.toFAQPage" />
@@ -103,6 +104,7 @@ const Footer = props => {
                     <FormattedMessage id="Footer.toHelpPage" />
                   </NamedLink>
                 </li>
+                */}
                 <li className={css.listItem}>
                   <NamedLink name="AboutPage" to={{ search: 'mailto:hello@jiffy.studio' }} className={css.link}>
                     <FormattedMessage id="Footer.toContactPage" />
@@ -110,6 +112,7 @@ const Footer = props => {
                 </li>
               </ul>
             </div>
+            {/* No need for now
             <div className={css.searches}>
               <ul className={css.list}>
                 <li className={css.listItem}>
@@ -238,6 +241,7 @@ const Footer = props => {
                 </li>
               </ul>
             </div>
+            */}
             <div className={css.extraLinks}>
               <div className={css.someLinks}>{socialMediaLinks}</div>
               <div className={css.legalMatters}>
