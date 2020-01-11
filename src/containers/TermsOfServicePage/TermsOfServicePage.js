@@ -37,6 +37,13 @@ const TermsOfServicePageComponent = props => {
         name: 'TermsOfServicePage',
       },
     },
+    {
+      text: intl.formatMessage({ id: 'TermsOfServicePage.cancellationPolicyTabTitle' }),
+      selected: false,
+      linkProps: {
+        name: 'CancellationPolicyPage',
+      },
+    },
   ];
   const siteTitle = config.siteTitle;
   const schemaTitle = intl.formatMessage({ id: 'TermsOfServicePage.schemaTitle' }, { siteTitle });

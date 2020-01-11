@@ -21,6 +21,7 @@ import {
   SearchPage,
   StyleguidePage,
   TermsOfServicePage,
+  CancellationPolicyPage,
   TransactionPage,
 } from './containers';
 
@@ -269,6 +270,11 @@ const routeConfiguration = () => {
       path: '/terms-of-service',
       name: 'TermsOfServicePage',
       component: props => <TermsOfServicePage {...props} />,
+    },
+    {
+      path: '/cancellation-privacy-policy',
+      name: 'CancellationPolicyPage',
+      component: props => <CancellationPolicyPage {...props} />,
     },
     {
       path: '/privacy-policy',

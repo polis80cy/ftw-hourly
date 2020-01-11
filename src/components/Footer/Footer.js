@@ -64,6 +64,7 @@ const Footer = props => {
         <div className={css.content}>
           <div className={css.someLiksMobile}>{socialMediaLinks}</div>
           <div className={css.links}>
+            {/* No need for now
             <div className={css.organization} id="organization">
               <NamedLink name="LandingPage" className={css.logoLink}>
                 <span className={css.logo}>
@@ -81,6 +82,7 @@ const Footer = props => {
                 </p>
               </div>
             </div>
+            */}
             <div className={css.infoLinks}>
               <ul className={css.list}>
                 <li className={css.listItem}>
@@ -251,11 +253,18 @@ const Footer = props => {
                       <FormattedMessage id="Footer.termsOfUse" />
                     </NamedLink>
                   </li>
+                  {/* No need for now
                   <li>
                     <NamedLink name="PrivacyPolicyPage" className={css.legalLink}>
                       <FormattedMessage id="Footer.privacyPolicy" />
                     </NamedLink>
                   </li>
+                  <li>
+                    <NamedLink name="CancellationPolicyPage" className={css.legalLink}>
+                      <FormattedMessage id="Footer.cancellationPolicy" />
+                    </NamedLink>
+                  </li>
+                  */}
                 </ul>
               </div>
             </div>
@@ -265,9 +274,11 @@ const Footer = props => {
               <FormattedMessage id="Footer.copyright" />
             </NamedLink>
             <div className={css.tosAndPrivacyMobile}>
+              {/* No need for now
               <NamedLink name="PrivacyPolicyPage" className={css.privacy}>
                 <FormattedMessage id="Footer.privacy" />
               </NamedLink>
+              */}
               <NamedLink name="TermsOfServicePage" className={css.terms}>
                 <FormattedMessage id="Footer.terms" />
               </NamedLink>

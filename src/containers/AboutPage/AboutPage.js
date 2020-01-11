@@ -40,7 +40,7 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>With Jiffystudio you can host your studio and earn extra income.</p>
+              <p>Host your studio on Jiffystudio and earn extra income.</p>
             </div>
 
             <div className={css.contentMain}>
