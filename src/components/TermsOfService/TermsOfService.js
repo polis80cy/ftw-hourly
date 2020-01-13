@@ -76,11 +76,13 @@ const TermsOfService = props => {
             Jiffystudio may revise these terms of service for its website at any time without notice. By using
             this website you are agreeing to be bound by the then current version of these terms of service.
           </p>
+        {/* no need for now
         <h3>8. Governing Law</h3>
           <p>
             These terms and conditions are governed by and construed in accordance with the laws of Singapore
             and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
           </p>
+        */}
       </p>
     </div>
   );

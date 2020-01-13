@@ -21,32 +21,39 @@ const CancellationPolicy = props => {
         initiate the cancellation process.
       </p>
       
-      <table>
-        <tr>
-          <th>Cancellation Date</th>
-          <th>Refund Amount</th>
-        </tr>
-        <tr>
-          <td>Booking request still pending</td>
-          <td>100% (incl. platform fee)</td>
-        </tr>
-        <tr>
-          <td>14 days or less ahead of booking start date</td>
-          <td>100% (minus platform fee)</td>
-        </tr>
-        <tr>
-          <td>7 days or less ahead of booking start date</td>
-          <td>50% (minus platform fee)</td>
-        </tr>
-        <tr>
-          <td>2 days or less ahead of booking start date</td>
-          <td>0% (minus platform fee)</td>
-        </tr>
-      </table>
+      <p className={css.table}>
+        <table >
+          <tr>
+            <th>Cancellation Date</th>
+            <th>&nbsp;&nbsp;&nbsp;</th>
+            <th>Refund Amount</th>
+          </tr>
+          <tr>
+            <td>Booking request still pending</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>100% incl. platform fee</td>
+          </tr>
+          <tr>
+            <td>14 days or less to booking date</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>100% excl. platform fee</td>
+          </tr>
+          <tr>
+            <td>7 days or less to booking date</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>50% excl. platform fee</td>
+          </tr>
+          <tr>
+            <td>2 days or less to booking date</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>0%</td>
+          </tr>
+        </table>
+      </p>
       
-      <p></p>
-      
-      <h3>Jiffystudio Initiated Cancellations</h3>
+      <p>
+        <h3>Jiffystudio Initiated Cancellations</h3>
+      </p>
       <p>
         In some circumstances, Jiffystudio may decide to cancel a booking and initiate a
         refund to both parties in accordance with this Cancellation Policy. Such circumstances
