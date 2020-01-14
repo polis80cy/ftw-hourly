@@ -408,7 +408,7 @@
   "ListingPage.viewImagesButton": "View photos ({count})",
   "ListingPage.yourHostHeading": "Your host",
   "LocationAutocompleteInput.currentLocation": "Current location",
-  "LocationSearchForm.placeholder": "Search yoga hosts...",
+  "LocationSearchForm.placeholder": "Search studio hosts...",
   "LoginForm.emailInvalid": "A valid email address is required",
   "LoginForm.emailLabel": "Email",
   "LoginForm.emailPlaceholder": "john.doe@example.com",
