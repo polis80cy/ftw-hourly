@@ -12,6 +12,7 @@ import sgImage from './images/sg-jiffy.jpg';
 import laImage from './images/la-yogi.jpg';
 import sfImage from './images/sf-yogi.jpg';
 import lonImage from './images/lon-jiffy.jpeg';
+import readImage from './images/read-jiffy.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -60,6 +61,11 @@ const SectionLocations = props => {
           'London',
           lonImage,
           '?address=London%2C%20Greater%20London%2C%20England%2C%20United%20Kingdom&bounds=51.669993%2C0.152641%2C51.384598%2C-0.35167'
+        )}
+        {locationLink(
+          'Reading',
+          readImage,
+          '?address=Reading%2C%20Reading%2C%20England%2C%20United%20Kingdom&bounds=51.5597%2C-0.771487%2C51.328191%2C-1.248574'
         )}
       </div>
     </div>
