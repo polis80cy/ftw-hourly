@@ -71,8 +71,8 @@ const AboutPage = () => {
                 Our Fees
               </h3>
               <p>
-                We charge a 15% booking fee. Most of that goes to platform maintenance and
-                payment processing fees. Please note that we do not keep any banking information
+                We charge studio hosts with a 15% booking fee most of which goes to platform
+                maintenance and payment processing fees. We do not keep any banking information
                 on our systems; payments and payouts to hosts are all handled directly by Stripe,
                 our payment processor.
               </p>
