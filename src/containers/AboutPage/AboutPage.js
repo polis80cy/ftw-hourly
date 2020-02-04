@@ -35,44 +35,46 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Make your studio accessible to every photographer out there.</h1>
+          <h1 className={css.pageTitle}>Rent a photo studio anywhere or make your studio accessible to everyone.</h1>
           <img className={css.coverImage} src={image} alt="About us." />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Host your studio on Jiffystudio and earn extra income.</p>
+              <p>Think of us as the Airbnb for photo studios!</p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Do you have a creative space you can call studio?
+                Rent a photo studio everywhere
+              </h2>
+
+              <p>
+                If you're on the hunt for a creative space in your city or further away, use Jiffystudio to
+                find it and book it. With no hidden fees, real-time bookings and real reviews from other users,
+                you can rest assured that you're getting a good deal.
+              </p>
+              
+              <h2>
+                Host your space
               </h2>
 
               <p>
                 Whether it is a professional space or just your living room, if you have the
-                equipment necessary to call it a photography studio, you can monetize your place by hosting
-                it on Jiffystudio and making it available to a global community of photographers
-                looking for creative spaces for their next photoshoot. Make it work for you by
-                choosing when to make your studio available for bookings, and how much to charge for it,
-                all through Jiffystudio.
+                equipment necessary to call it a photography studio, you can monetize your
+                place by hosting it on Jiffystudio. Make your space available to a global community
+                of photographers looking for creative spaces for their next photoshoot. Make it
+                work for you by choosing when to make your studio available for bookings,
+                and how much to charge for it, all through our platform.
               </p>
 
-              <h3 className={css.subtitle}>Still not convinced?</h3>
-
-              <p>
-                Jiffystudio offers you a platform through which you can reach photographaphy
-                practitioners and creatives globally. Offering your studio through Jiffystudio
-                presents you with the real possibility to earn extra income.
-              </p>
-
-              <h3 id="contact" className={css.subtitle}>
+              {/*<h3 id="contact" className={css.subtitle}>
                 Get social
               </h3>
               <p>
                 You can also checkout our{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
                 <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
-              </p>
+              </p>*/}
             </div>
           </div>
         </LayoutWrapperMain>
