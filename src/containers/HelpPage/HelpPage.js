@@ -82,9 +82,10 @@ const HelpPage = () => {
                 regarding how you intend to use the studio, any specific details, requirements,
                 or needs regarding the booking request. You can enter your payment information and send
                 the booking request to the studio host.
-                <br>You will only be charged if the studio accepts your booking request. If they do not
+                
+                You will only be charged if the studio accepts your booking request. If they do not
                 accept or deny your booking request, it will automatically expire and you will not be
-                charged.</br>
+                charged.
               </p>
               <h2>
                 User Accounts / Payments / Reviews
