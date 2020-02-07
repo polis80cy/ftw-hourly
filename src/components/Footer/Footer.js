@@ -109,7 +109,7 @@ const Footer = props => {
                 </li>
                 */}
                 <li className={css.listItem}>
-                  <NamedLink name="AboutPage#contact" className={css.link}>
+                  <NamedLink name="AboutPage" className={css.link}>
                     <FormattedMessage id="Footer.toContactPage" />
                   </NamedLink>
                 </li>
