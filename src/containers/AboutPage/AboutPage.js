@@ -77,15 +77,15 @@ const AboutPage = () => {
                 our payment processor.
               </p>
 
-              <h3 id="contact" className={css.subtitle}>
+              <h2 id="contact">
                 Get in touch
-              </h3>
+              </h2>
               <p>
-                We love feedback! We are a new platform and your feedback is critical to ur success.
+                We love feedback! We are a new platform and your feedback is critical to our success.
                 If you have questions, suggestions, bugs to report or just want to say hi, just send
                 us an email to <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>. We are very
-                responsive. We are also in the process of building our social media pages, we will
-                update the site once these go up.
+                responsive. We are also in the process of building our social media pages and we will
+                update the site with these once they're up.
               </p>
 
               {/*<h3 id="contact" className={css.subtitle}>
