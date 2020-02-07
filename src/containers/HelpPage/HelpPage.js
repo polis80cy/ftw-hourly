@@ -44,18 +44,72 @@ const HelpPage = () => {
                 time help photo studios generate more bookings and host amazing talent from all over
                 the globe.
               </p>
-              <p>
-                Check back soon for more FAQs.
-              </p>
               <h2>
-                Studios / Hosts
+                Studios / Hosts / Fees
               </h2>
+              <h3 id="questions" className={css.subtitle}>
+                What are your charges?
+              </h3>
+              <p>
+                We currently charge a 15% transaction fee for all bookings completed on Jiffystudio.
+                This fee is automatically deducted from your booking total once you accept the request.
+              </p>
+              <h3 id="questions" className={css.subtitle}>
+                How do I add payout information?
+              </h3>
+              <p>
+                All accounts with a studio listing must add payout information in order to receive booking
+                requests. We use Stripe Connect to power payments. Adding your payout information is easy
+                and can be done in these steps:
+                <ol type="1">
+                  <li>When logged into your Jiffystudio account, click on the top right account avatar
+                    and then “Account Settings” from the dropdown.</li>
+                  <li>On the left navigation, click on “Payout details”.</li>
+                  <li>Select your country and bank account information (required by Stripe).</li>
+                </ol>
+                If at any time you need help with this, please email us at hello@jiffy.studio.
+              </p>
               <h2>
                 Photographers / Creatives
               </h2>
+              <h3 id="questions" className={css.subtitle}>
+                How do I request to book a photo studio?
+              </h3>
+              <p>
+                You can book a photo studio by creating a user account, if you have not done so already.
+                Once you do, find a studio you'd like to visit, select a date and time, and click
+                “Request to book”. On the next page, you will be able to enter a message to the studio
+                regarding how you intend to use the studio, any specific details, requirements,
+                or needs regarding the booking request. You can enter your payment information and send
+                the booking request to the studio host.
+                <br>You will only be charged if the studio accepts your booking request. If they do not
+                accept or deny your booking request, it will automatically expire and you will not be
+                charged.</br>
+              </p>
               <h2>
-                Account / Payments / Reviews
+                User Accounts / Payments / Reviews
               </h2>
+              <h3 id="questions" className={css.subtitle}>
+                How do I create an account?
+              </h3>
+              <p>
+                You can create a user account in seconds with the following steps:
+                <ol type="1">
+                  <li>Click "Sign up" in the top right.</li>
+                  <li>Enter your email address and create a secure password.</li>
+                  <li>Check your inbox and confirm you email address.</li>
+                </ol>
+              </p>
+              <h3 id="questions" className={css.subtitle}>
+                How can I delete my account?
+              </h3>
+              <p>
+                If you would like to permanently delete your Jiffystudio user account, please email us
+                at hello@jiffy.studio.
+              </p>
+              <p>
+                Check back soon for more FAQs.
+              </p>
             </div>
           </div>
         </LayoutWrapperMain>
