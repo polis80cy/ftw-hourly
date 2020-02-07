@@ -93,7 +93,7 @@ const HelpPage = () => {
               <p>
                 You can create a user account in seconds with the following steps:
                 <ol type="1">
-                  <li>Click "Sign up" in the top right.</li>
+                  <li>Click "Sign up" in the top right (accessible through the menu on the top left if on mobile).</li>
                   <li>Enter your email address and create a secure password.</li>
                   <li>Check your inbox and confirm you email address.</li>
                 </ol>
@@ -109,7 +109,7 @@ const HelpPage = () => {
               [For studio hosts] Can I list my studio for free?
               </h2>
               <p>
-                Yes, listings are free. We only charge a feww when a booking has been accepted.
+                Yes, listings are free. We only charge a commission when a booking has been accepted.
               </p>
               <h2>
               [For studio hosts] How can I enforce a cancellation policy?
@@ -131,7 +131,7 @@ const HelpPage = () => {
                 process is handled by Stripe. Rest assured that once you accept a booking request, the person
                 that booked your studio has already been charged for the booking and paid for it. If you
                 have any questions about this at any time, please email us at
-                <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
+                 <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
               </p>
               <p>
                 <b>Check back soon for more FAQs.</b>
