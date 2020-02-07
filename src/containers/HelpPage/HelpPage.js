@@ -10,7 +10,7 @@ import {
 
 import css from './HelpPage.css';
 
-const AboutPage = () => {
+const HelpPage = () => {
   // prettier-ignore
   return (
     <StaticPage

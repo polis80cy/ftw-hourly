@@ -95,12 +95,13 @@ const Footer = props => {
                     <FormattedMessage id="Footer.toAboutPage" />
                   </NamedLink>
                 </li>
-                {/* No need for now
+                
                 <li className={css.listItem}>
                   <NamedLink name="LandingPage" className={css.link}>
                     <FormattedMessage id="Footer.toFAQPage" />
                   </NamedLink>
                 </li>
+                {/* No need for now
                 <li className={css.listItem}>
                   <NamedLink name="LandingPage" className={css.link}>
                     <FormattedMessage id="Footer.toHelpPage" />
