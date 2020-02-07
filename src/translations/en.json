@@ -383,7 +383,7 @@
   "ListingPage.bookingTitle": "Book a session with {title}",
   "ListingPage.closedListing": "This studio profile has been closed and sessions can't be booked.",
   "ListingPage.contactUser": "Contact",
-  "ListingPage.descriptionTitle": "studio profile",
+  "ListingPage.descriptionTitle": "Studio profile",
   "ListingPage.editListing": "Edit studio profile",
   "ListingPage.editProfileLink": "Edit user profile",
   "ListingPage.errorLoadingListingMessage": "Could not load studio profile. Please try again.",

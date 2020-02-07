@@ -9,10 +9,8 @@ import { NamedLink } from '../../components';
 import css from './SectionLocations.css';
 
 import sgImage from './images/sg-jiffy.jpg';
-import laImage from './images/la-yogi.jpg';
-import sfImage from './images/sf-yogi.jpg';
-import lonImage from './images/lon-jiffy.jpeg';
-import readImage from './images/read-jiffy.jpg';
+import ukImage from './images/uk-jiffy.jpeg';
+import usaImage from './images/usa-jiffy.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -58,14 +56,14 @@ const SectionLocations = props => {
           '?address=Singapore&bounds=1.4779199%2C104.406654%2C1.1308576%2C103.5742042'
         )}
         {locationLink(
-          'London',
-          lonImage,
-          '?address=London%2C%20Greater%20London%2C%20England%2C%20United%20Kingdom&bounds=51.669993%2C0.152641%2C51.384598%2C-0.35167'
+          'the UK',
+          ukImage,
+          '?address=United%20Kingdom&bounds=60.945453%2C1.867399%2C49.802665%2C-8.718659'
         )}
         {locationLink(
-          'Reading',
-          readImage,
-          '?address=Reading%2C%20Reading%2C%20England%2C%20United%20Kingdom&bounds=51.5597%2C-0.771487%2C51.328191%2C-1.248574'
+          'the US',
+          usaImage,
+          '?address=United%20States%20of%20America&bounds=71.540724%2C-66.885444%2C18.765563%2C-179.9'
         )}
       </div>
     </div>

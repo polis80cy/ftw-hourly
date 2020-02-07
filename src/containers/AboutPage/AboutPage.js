@@ -67,14 +67,25 @@ const AboutPage = () => {
                 and how much to charge for it, all through our platform.
               </p>
 
-              <h3 id="contact" className={css.subtitle}>
-                Our Fees
+              <h3 id="fees" className={css.subtitle}>
+                Our fees
               </h3>
               <p>
                 We charge studio hosts with a 15% booking fee most of which goes to platform
                 maintenance and payment processing fees. We do not keep any banking information
                 on our systems; payments and payouts to hosts are all handled directly by Stripe,
                 our payment processor.
+              </p>
+
+              <h3 id="contact" className={css.subtitle}>
+                Get in touch
+              </h3>
+              <p>
+                We love feedback! We are a new platform and your feedback is critical to ur success.
+                If you have questions, suggestions, bugs to report or just want to say hi, just send
+                us an email to <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>. We are very
+                responsive. We are also in the process of building our social media pages, we will
+                update the site once these go up.
               </p>
 
               {/*<h3 id="contact" className={css.subtitle}>
