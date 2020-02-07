@@ -6,6 +6,7 @@ import {
   ContactDetailsPage,
   EditListingPage,
   EmailVerificationPage,
+  HelpPage,
   InboxPage,
   LandingPage,
   ListingPage,
