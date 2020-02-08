@@ -35,11 +35,10 @@ const HelpPage = () => {
                 What is Jiffystudio?
               </h2>
               <p>
-                The best analogy for Jiffystudio is the Airbnb for photo studios. We are focused on
-                becoming the largest global marketplace for booking photo studios. Our mission is to
-                make photo studios accessible by all photographers around the world, and at the same
-                time help photo studios generate more bookings and host amazing talent from all over
-                the globe.
+                Think of us as Airbnb for photo studios. Our vision is to become the largest global
+                marketplace for booking photo studios. Our mission is to make photo studios accessible
+                by all photographers around the world, and help studios generate more bookings by hosting
+                global talent.
               </p>
               <h2>
                 What are your charges?
@@ -130,8 +129,7 @@ const HelpPage = () => {
                 7-10 business days for the first booking, and much sooner for subsequent bookings). This
                 process is handled by Stripe. Rest assured that once you accept a booking request, the person
                 that booked your studio has already been charged for the booking and paid for it. If you
-                have any questions about this at any time, please email us at
-                 <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
+                have any questions about this at any time, please email us at <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
               </p>
               <p>
                 <b>Check back soon for more FAQs.</b>
