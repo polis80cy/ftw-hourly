@@ -34,13 +34,13 @@ const HelpPage = () => {
             <div className={css.contentMain}>
               <h2>For everyone</h2>
 
-              <Collapsible trigger="What is Jiffystudio?">
-                <p>
+              <Collapsible class={css.collapsible} trigger="What is Jiffystudio?">
+                <div class={css.content}>
                   Think of us as Airbnb for photo studios. Our vision is to become the largest global
                   marketplace for booking photo studios. Our mission is to make photo studios accessible
                   by all photographers around the world, and help studios generate more bookings by hosting
                   global talent.
-                </p>
+                </div>
               </Collapsible>
 
               <button class={css.collapsible}>What is Jiffystudio?</button>
