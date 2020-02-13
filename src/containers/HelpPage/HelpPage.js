@@ -62,42 +62,46 @@ const HelpPage = () => {
               </p>
 
               <p>
-                <button class={css.collapsible}>Do I need to create an account?</button>
-                <div class={css.content}>
-                  You can discover and browse photo studios without an account. However, to message a studio,
-                  request a booking, or list your own studio, you will be prompted to create a user account.
-                  All user accounts require email verification. You must also add further verification and
-                  payment information when listing your studio (required by Stripe for payouts).
-                </div>
+                <Collapsible tabIndex={2} trigger="Do I need to create an account?">
+                  <p>
+                    You can discover and browse photo studios without an account. However, to message a studio,
+                    request a booking, or list your own studio, you will be prompted to create a user account.
+                    All user accounts require email verification. You must also add further verification and
+                    payment information when listing your studio (required by Stripe for payouts).
+                  </p>
+                </Collapsible>
               </p>
 
               <p>
-                <button class={css.collapsible}>How can I create an account?</button>
-                <div class={css.content}>
-                  You can create a user account in seconds with the following steps:
-                    <ol type="1">
-                      <li>Click "Sign up" in the top right (accessible through the menu on the top left on mobile).</li>
-                      <li>Enter your email address and create a secure password.</li>
-                      <li>Check your inbox and confirm you email address.</li>
-                    </ol>
-                </div>
+                <Collapsible tabIndex={3} trigger="How can I create an account?">
+                  <p>
+                    You can create a user account in seconds with the following steps:
+                      <ol type="1">
+                        <li>Click "Sign up" in the top right (accessible through the menu on the top left on mobile).</li>
+                        <li>Enter your email address and create a secure password.</li>
+                        <li>Check your inbox and confirm you email address.</li>
+                      </ol>
+                  </p>
+                </Collapsible>
               </p>
 
               <p>
-                <button class={css.collapsible}>How can I delete my account?</button>
-                <div class={css.content}>
-                  If you would like to permanently delete your Jiffystudio user account, please email us
-                  at <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
-                </div>
+                <Collapsible tabIndex={4} trigger="How can I delete my account?">
+                  <p>
+                    If you would like to permanently delete your Jiffystudio user account, please email us
+                    at <a href="mailto:hello@jiffy.studio">hello@jiffy.studio</a>.
+                  </p>
+                </Collapsible>
               </p>
 
               <p>
-                <button class={css.collapsible}>What are your charges?</button>
-                <div class={css.content}>
-                  We charge studio hosts with a 15% commission fee for all bookings completed on Jiffystudio.
-                  This fee is automatically deducted from the booking total once a host accepts the request.
-                  There are no fee charges for photographers looking to book studios.
-                </div>
+                <Collapsible tabIndex={5} trigger="What are your charges?">
+                  <p>
+                    We charge studio hosts with a 15% commission fee for all bookings completed on Jiffystudio.
+                    This fee is automatically deducted from the booking total once a host accepts the request.
+                    There are no fee charges for photographers looking to book studios.
+                  </p>
+                </Collapsible>
               </p>
 
               <h2>For hosts</h2>
