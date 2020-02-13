@@ -34,41 +34,31 @@ const HelpPage = () => {
             <div className={css.contentMain}>
               <h2>For everyone</h2>
 
-              <Collapsible tabIndex={0} trigger="Start here">
-                <p>This is the collapsible content. It can be any element or React component you like.</p>
-                <p>It can even be another Collapsible component. Check out the next section!</p>
-              </Collapsible>
-
-              <Collapsible transitionTime={400} trigger="Then try this one">
-                <p>Would you look at that!</p>
-                <p>See; you can nest as many Collapsible components as you like.</p>
-                
-                <Collapsible trigger="Mmmmm, it's all cosy nested here">
-                  <p>And there's no limit to how many levels deep you go. Or how many you have on the same level.</p>
+              <p>
+                <Collapsible tabIndex={0} trigger="What is Jiffystudio?">
+                  <p>
+                    Think of us as Airbnb for photo studios. Our vision is to become the largest global
+                    marketplace for booking photo studios. Our mission is to make photo studios accessible
+                    by all photographers around the world, and help studios generate more bookings by hosting
+                    global talent.
+                  </p>
                 </Collapsible>
-              </Collapsible>
-
-              <button class={css.collapsible}>What is Jiffystudio?</button>
-              <div class={css.content}>
-                Think of us as Airbnb for photo studios. Our vision is to become the largest global
-                marketplace for booking photo studios. Our mission is to make photo studios accessible
-                by all photographers around the world, and help studios generate more bookings by hosting
-                global talent.
-              </div>
+              </p>
 
               <p>
-                <button class={css.collapsible}>How can I request to book a photo studio?</button>
-                <div class={css.content}>
-                  You can book a photo studio by creating a user account, if you have not done so already.
-                  Once you do, find a studio you'd like to visit, select a date and time, and click
-                  “Request to book”. On the next page, you will be able to enter a message to the studio
-                  regarding how you intend to use the studio, any specific details, requirements,
-                  or needs regarding the booking request. You can enter your payment information and send
-                  the booking request to the studio host.
-                  You will only be charged if the studio accepts your booking request. If they do not
-                  accept or deny your booking request, it will automatically expire and you will not be
-                  charged.
-                </div>
+                <Collapsible tabIndex={1} trigger="How can I request to book a photo studio?">
+                  <p>
+                    You can book a photo studio by creating a user account, if you have not done so already.
+                    Once you do, find a studio you'd like to visit, select a date and time, and click
+                    “Request to book”. On the next page, you will be able to enter a message to the studio
+                    regarding how you intend to use the studio, any specific details, requirements,
+                    or needs regarding the booking request. You can enter your payment information and send
+                    the booking request to the studio host.
+                    You will only be charged if the studio accepts your booking request. If they do not
+                    accept or deny your booking request, it will automatically expire and you will not be
+                    charged.
+                  </p>
+                </Collapsible>
               </p>
 
               <p>
