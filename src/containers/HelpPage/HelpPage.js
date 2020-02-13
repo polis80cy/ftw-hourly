@@ -7,6 +7,7 @@ import {
   LayoutWrapperFooter,
   Footer,
 } from '../../components';
+import {Collapse} from 'react-collapse';
 
 import css from './HelpPage.css';
 
@@ -32,6 +33,15 @@ const HelpPage = () => {
           <div className={css.contentWrapper}>
             <div className={css.contentMain}>
               <h2>For everyone</h2>
+
+              <Collapse isOpened={false}>
+                <div>
+                  Think of us as Airbnb for photo studios. Our vision is to become the largest global
+                  marketplace for booking photo studios. Our mission is to make photo studios accessible
+                  by all photographers around the world, and help studios generate more bookings by hosting
+                  global talent.
+                </div>
+              </Collapse>
 
               <button class={css.collapsible}>What is Jiffystudio?</button>
               <div class={css.content}>
