@@ -7,6 +7,11 @@ import {
   LayoutWrapperFooter,
   Footer,
 } from '../../components';
+import {
+  CollapsibleComponent,
+  CollapsibleHead,
+  CollapsibleContent
+} from "react-collapsible-component";
 
 import css from './HelpPage.css';
 
@@ -32,7 +37,39 @@ const HelpPage = () => {
           <div className={css.contentWrapper}>
             <div className={css.contentMain}>
               <h2>For everyone</h2>
-              
+
+              <CollapsibleComponent>
+                <CollapsibleHead className="additionalClassForHead">
+                  Head title 1
+                </CollapsibleHead>
+                <CollapsibleContent className="additionalClassForContent">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex{" "}
+                  </p>
+                </CollapsibleContent>
+ 
+                <CollapsibleHead>
+                  Head title 2
+                </CollapsibleHead>
+                <CollapsibleContent>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                </CollapsibleContent>
+              </CollapsibleComponent>
+
               <button class={css.collapsible}>What is Jiffystudio?</button>
               <div class={css.content}>
                 Think of us as Airbnb for photo studios. Our vision is to become the largest global
