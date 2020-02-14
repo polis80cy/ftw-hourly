@@ -32,7 +32,7 @@ const renderSocialMediaLinks = intl => {
   const twitterLink = siteTwitterPage ? (
     <ExternalLink
       key="linkToTwitter"
-      href={""/*siteTwitterPage*/}
+      href={siteTwitterPage}
       className={css.icon}
       title={goToTwitter}
     >
