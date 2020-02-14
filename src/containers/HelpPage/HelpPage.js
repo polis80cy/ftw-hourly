@@ -175,7 +175,7 @@ const HelpPage = () => {
               </p>
 
               <p>
-                <Collapsible tabIndex={11} trigger="I accepted a booking request. When will I receive the money?">
+                <Collapsible tabIndex={12} trigger="I accepted a booking request. When will I receive the money?">
                   <p>
                     The amount that you made from the booking will appear in the bank account that you entered
                     in your payout information within a few business days following the booking date (typically
@@ -188,7 +188,7 @@ const HelpPage = () => {
               </p>  
 
               <p>
-                <Collapsible tabIndex={12} trigger="How can I enforce a cancellation policy?">
+                <Collapsible tabIndex={13} trigger="How can I enforce a cancellation policy?">
                   <p>
                     We have a standard <a href="https://www.jiffy.studio/cancellation-privacy-policy">
                     Cancellation Policy</a>. We empower studios and photographers to communicate their
