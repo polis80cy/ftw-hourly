@@ -52,10 +52,11 @@ const AboutPage = () => {
                 We are a tiny team of 2 working from 2 different countries. We've always been
                 intrigued by the idea of a marketplace, the power of community and bringing people together.
                 Our love of photography has recently exposed us to the challenge of renting a studio,
-                a creative space, for a couple of hours with no complexity (the struggle is real). Building
-                a platform to solve that challenge felt like the right thing to do. We started executing on
-                the idea towards the end of 2019. We want Jiffystudio to be a win-win; Studio hosts can
-                earn extra income, and photographers can access creative spaces globally, effortlessly.
+                a creative space, for a couple of hours with no complexity (the struggle is real). Setting
+                up a platform to solve that challenge felt like the right thing to do. We started executing
+                on the idea towards the end of 2019, and went live on the internet for the first time
+                mid-January 2020. We want Jiffystudio to be a win-win; Studio hosts can earn extra income,
+                and photographers can access creative spaces globally, effortlessly.
               </p>
 
               <h2>
@@ -73,7 +74,7 @@ const AboutPage = () => {
               </h2>
 
               <p>
-                Whether it is a professional space or just your living room, if you have the
+                Be it a professional space or just your living room, if you have the
                 equipment necessary to call it a photography studio, <u>you can monetize your
                 space</u> by hosting it on Jiffystudio. Make it available to a global
                 community of photographers looking for creative spaces for their next photoshoot.
@@ -85,10 +86,11 @@ const AboutPage = () => {
                 Questions?
               </h3>
               <p>
-                Got questions on the listing process? Want to find out our commission fee? Have
-                a look at our <a href="https://www.jiffy.studio/help">FAQs</a> for a list of commonly 
-                asked questions and answers.
-                For any more questions, <a href="https://www.jiffy.studio/about#contact">get in touch</a>!
+                Got questions on the listing process? Want to find out our commission fee? Want to
+                hear more about payments and payouts? Want to find out why something works the way
+                it does? Have a look at 
+                our <a href="https://www.jiffy.studio/help">FAQs</a> for a list of commonly asked
+                questions and answers.
               </p>
 
               <h2 id="contact">
