@@ -10,6 +10,7 @@ import {
 import Collapsible from 'react-collapsible';
 
 import css from './HelpPage.css';
+import "./collapsible.scss";
 
 const HelpPage = () => {
   // prettier-ignore

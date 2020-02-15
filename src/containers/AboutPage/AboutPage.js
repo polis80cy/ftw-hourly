@@ -49,12 +49,12 @@ const AboutPage = () => {
               </h2>
 
               <p>
-                We are a tiny team of 2 working from 2 different countries. We've always been
-                intrigued by the idea of a marketplace, the power of community and bringing people together.
-                Our love of photography has recently exposed us to the challenge of renting a studio,
-                a creative space, for a couple of hours with no complexity (the struggle is real). Setting
-                up a platform to solve that challenge felt like the right thing to do. We started executing
-                on the idea towards the end of 2019, and went live on the internet for the first time
+                We are currently a tiny team of 2 working from different countries. We have big plans
+                however. We've always been intrigued by the idea of a marketplace, the power of community
+                and bringing people together. Our love of photography has recently exposed us to the
+                challenge of renting a studio, a creative space, for a couple of hours with no complexity
+                (the struggle is real). Setting up a platform to solve that challenge felt like the right
+                thing to do. We started executing on the idea towards the end of 2019, and went online
                 mid-January 2020. We want Jiffystudio to be a win-win; Studio hosts can earn extra income,
                 and photographers can access creative spaces globally, effortlessly.
               </p>
